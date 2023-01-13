@@ -1,0 +1,37 @@
+
+.main {
+    padding: 60px 30px;
+    background-color: #282d35;
+    background-image: url('../../images/cave.png');
+    background-repeat: no-repeat;
+    background-position: right 10%;
+}
+
+.main-title {
+    margin: 0;
+    color: white;
+    font-family: Inter;
+    font-style: bold;
+    font-size: 39px;
+    line-height: 47px;
+    line-height: 100%;
+    letter-spacing: -5%;
+}
+
+.main--facts {
+    margin-top: 46px;
+    max-width: 350px;
+}
+
+.main--facts > li {
+    font-family: Inter;
+    font-style: Regular;
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.main--facts > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
